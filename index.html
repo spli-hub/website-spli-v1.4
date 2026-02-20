@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PT. Sarana Pamunah Limbah Indonesia — Jasa Pengelolaan Limbah B3 Berlisensi KLHK. Pengolahan, Pengangkutan, Pengemasan, dan Pemusnahan Limbah Berbahaya di Sumatera Utara.">
+  <title>PT. Sarana Pamunah Limbah Indonesia | B3 Waste Management</title>
+
+  <!-- Google Fonts (preconnect for performance) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+  ╔══════════════════════════════════════════════════════════════╗
+  ║         PANDUAN PENAMBAHAN FOTO / HOW TO ADD PHOTOS          ║
+  ╠══════════════════════════════════════════════════════════════╣
+  ║                                                              ║
+  ║  STRUKTUR FOLDER YANG DISARANKAN:                            ║
+  ║  ├── index.html                                              ║
+  ║  ├── style.css                                               ║
+  ║  ├── main.js                                                 ║
+  ║  └── images/                                                 ║
+  ║      ├── logo.png          (logo perusahaan)                 ║
+  ║      ├── hero-1.jpg        (foto hero slider 1)              ║
+  ║      ├── hero-2.jpg        (foto hero slider 2)              ║
+  ║      ├── hero-3.jpg        (foto hero slider 3)              ║
+  ║      ├── profile.jpg       (foto profil/fasilitas)           ║
+  ║      └── clients/                                            ║
+  ║          ├── tirtanadi.png                                   ║
+  ║          ├── martha-friska.png                               ║
+  ║          └── (dst...)                                        ║
+  ║                                                              ║
+  ║  CARA MENAMBAHKAN FOTO:                                      ║
+  ║                                                              ║
+  ║  1. LOGO — Ganti teks "SPLI" di .logo-emblem dengan:        ║
+  ║     <img src="images/logo.png" alt="SPLI Logo">              ║
+  ║                                                              ║
+  ║  2. HERO SLIDER — Cari komentar "ADD-HERO-PHOTO" di bawah   ║
+  ║     Ganti atribut style background-image tiap slide          ║
+  ║                                                              ║
+  ║  3. FOTO PROFIL — Cari komentar "ADD-PROFILE-PHOTO"         ║
+  ║     Tambahkan <img src="images/profile.jpg"> di dalam frame  ║
+  ║                                                              ║
+  ║  4. LOGO KLIEN — Cari komentar "ADD-CLIENT-LOGO"            ║
+  ║     Ganti .client-logo-placeholder dengan <img> tag          ║
+  ║                                                              ║
+  ╚══════════════════════════════════════════════════════════════╝
+  -->
+</head>
+
+<body>
+
+<!-- ============================================================
+     ██   ██ ███████  █████  ██████  ███████ ██████
+     ██   ██ ██      ██   ██ ██   ██ ██      ██   ██
+     ███████ █████   ███████ ██   ██ █████   ██████
+     ██   ██ ██      ██   ██ ██   ██ ██      ██   ██
+     ██   ██ ███████ ██   ██ ██████  ███████ ██   ██
+     ============================================================ -->
+<header>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+
+      <!-- LEFT: Logo + Company Name -->
+      <div class="topbar-logo">
+        <div class="logo-emblem">
+          <!--
+            ADD LOGO PHOTO:
+            Hapus teks "SPLI" di bawah ini dan ganti dengan:
+            <img src="images/logo.png" alt="PT SPLI Logo" style="width:48px;height:48px;object-fit:contain;border-radius:6px;">
+          -->
+          SPLI
+        </div>
+        <div class="logo-text">
+          <strong>PT. SARANA PAMUNAH LIMBAH INDONESIA</strong>
+          <span>Hazardous Waste Management · B3 Services</span>
+        </div>
+      </div>
+
+      <!-- RIGHT: Contact Info -->
+      <div class="topbar-contacts">
+        <a href="tel:08116588817" title="Telepon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.1 1.21 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.45-.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          0811 6588 817
+        </a>
+        <a href="mailto:pt.spli06@gmail.com" title="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          pt.spli06@gmail.com
+        </a>
+        <a href="https://maps.google.com/?q=Jl+Batang+Kuis+Km+3,5+No.168+Tanjung+Morawa+Deli+Serdang" target="_blank" rel="noopener" class="topbar-addr" title="Peta Lokasi">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Jl. Batang Kuis Km 3,5, Tanjung Morawa
+        </a>
+      </div>
+
+    </div>
+  </div><!-- /topbar -->
+
+  <!-- NAVIGATION -->
+  <nav class="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="container navbar-inner">
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#beranda"   class="active">Beranda</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#legalitas">Legalitas</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li class="portal"><a href="#portal">Portal Klien</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </nav>
+
+</header>
+
+
+<!-- ============================================================
+     ██████   ██████  ██████  ██    ██
+     ██   ██ ██    ██ ██   ██  ██  ██
+     ██████  ██    ██ ██   ██   ████
+     ██   ██ ██    ██ ██   ██    ██
+     ██████   ██████  ██████     ██
+     ============================================================ -->
+<main id="beranda">
+
+  <!-- ──────────────────────────────────
+       HERO — AUTO SLIDER
+       ────────────────────────────────── -->
+  <section class="hero" aria-label="Hero Banner">
+
+    <div class="hero-slides">
+
+      <!-- SLIDE 1
+           ADD-HERO-PHOTO: Ganti style di bawah dengan foto Anda:
+           style="background-image: url('images/hero-1.jpg');"
+      -->
+      <div class="hero-slide active">
+        <div class="hero-slide-bg no-image-1"
+             style="/* background-image: url('images/hero-1.jpg'); */">
+        </div>
+      </div>
+
+      <!-- SLIDE 2
+           ADD-HERO-PHOTO: style="background-image: url('images/hero-2.jpg');"
+      -->
+      <div class="hero-slide">
+        <div class="hero-slide-bg no-image-2"
+             style="/* background-image: url('images/hero-2.jpg'); */">
+        </div>
+      </div>
+
+      <!-- SLIDE 3
+           ADD-HERO-PHOTO: style="background-image: url('images/hero-3.jpg');"
+      -->
+      <div class="hero-slide">
+        <div class="hero-slide-bg no-image-3"
+             style="/* background-image: url('images/hero-3.jpg'); */">
+        </div>
+      </div>
+
+    </div><!-- /hero-slides -->
+
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-grid-pattern" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <div class="hero-badge" data-reveal>
+          <div class="hero-badge-dot" aria-hidden="true"></div>
+          <span>Licensed B3 Waste Management · Indonesia</span>
+        </div>
+
+        <h1 class="hero-title" data-reveal data-reveal-delay="100">
+          We Handle<br>the <em>Waste.</em><br>You Focus on<br>the Business.
+        </h1>
+
+        <p class="hero-sub" data-reveal data-reveal-delay="200">
+          Didukung izin resmi KLHK, OSS, dan sistem operasional terstandarisasi
+          untuk pengelolaan limbah B3 yang aman, legal, dan terintegrasi.
+        </p>
+
+        <div class="hero-ctas" data-reveal data-reveal-delay="300">
+          <a href="#kontak" class="btn-primary">Hubungi Kami</a>
+          <a href="#kontak" class="btn-outline">Ajukan Penawaran</a>
+        </div>
+
+      </div>
+    </div><!-- /container -->
+
+    <!-- Dot controls -->
+    <div class="hero-controls" role="tablist" aria-label="Slide controls">
+      <button class="hero-dot active" onclick="goSlide(0)" aria-label="Slide 1" role="tab"></button>
+      <button class="hero-dot"        onclick="goSlide(1)" aria-label="Slide 2" role="tab"></button>
+      <button class="hero-dot"        onclick="goSlide(2)" aria-label="Slide 3" role="tab"></button>
+    </div>
+
+  </section><!-- /hero -->
+
+
+  <!-- ──────────────────────────────────
+       CORPORATE PROFILE
+       ────────────────────────────────── -->
+  <section class="profile-section" id="profile">
+    <div class="container">
+      <div class="profile-grid">
+
+        <!-- LEFT: Company Image -->
+        <div class="profile-img-wrap" data-reveal>
+          <div class="profile-img-frame">
+            <!--
+              ADD-PROFILE-PHOTO:
+              Tambahkan tag <img> di sini untuk mengganti placeholder:
+              <img src="images/profile.jpg" alt="PT SPLI Facility">
+              Setelah menambahkan foto, hapus div.profile-img-placeholder di bawah ini.
+            -->
+            <div class="profile-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16"/><path d="M1 21h22"/><path d="M9 7h1m-1 4h1m4-4h1m-1 4h1M9 15h6"/></svg>
+              <p>Tambahkan Foto Fasilitas</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Company Text -->
+        <div class="profile-text" data-reveal data-reveal-delay="150">
+          <div class="section-label">
+            <div class="section-label-line"></div>
+            <span>Tentang Kami</span>
+          </div>
+          <h2 class="section-title">Mitra Kepatuhan Lingkungan Industri Indonesia</h2>
+          <p>PT. Sarana Pamunah Limbah Indonesia didirikan pada tahun 2021 dan memposisikan diri sebagai mitra pemenuhan kepatuhan lingkungan bagi industri di Indonesia.</p>
+          <p>Berfokus pada pengelolaan limbah bahan berbahaya dan beracun (B3), perusahaan kami menghadirkan solusi terintegrasi mulai dari pengangkutan, pengemasan, pengolahan, hingga pemusnahan limbah B3 sesuai regulasi KLHK dan standar lingkungan nasional.</p>
+          <p>Berlokasi di Tanjung Morawa, Kabupaten Deli Serdang, Sumatera Utara, kami beroperasi dengan dukungan fasilitas memadai dan tim tenaga ahli berpengalaman di bidang pengelolaan limbah B3.</p>
+          <a href="#layanan" class="btn-secondary" style="margin-top:12px">
+            Lihat Layanan Kami
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- /profile-section -->
+
+
+  <!-- ──────────────────────────────────
+       CORE SERVICES
+       ────────────────────────────────── -->
+  <section class="services-section" id="layanan">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-label">
+          <div class="section-label-line"></div>
+          <span>Layanan Kami</span>
+        </div>
+        <h2 class="section-title" data-reveal>Core Services Overview</h2>
+        <p class="section-desc" data-reveal data-reveal-delay="100">Solusi pengelolaan limbah B3 komprehensif dengan standar operasional terverifikasi untuk kebutuhan industri dan institusi Anda.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- SERVICE 1 — Pengolahan Limbah B3 -->
+        <div class="service-card" data-reveal>
+          <div class="service-icon-wrap">
+            <div class="service-icon-bg">
+              <!-- ICON: Incinerator / flame + gear -->
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2C8.5 5 7 8 8 11c-2-1-3-3-2.5-5.5C3 8 2 12 4 15a8 8 0 0016 0c0-4-2-7-4-9-1 3-2.5 4-4 4 1-2 1-5 0-8z"/>
+              </svg>
+            </div>
+            <div class="service-num">01</div>
+          </div>
+          <h3>Pengolahan Limbah Berbahaya</h3>
+          <p>Sistem insinerasi dan elektrokoagulasi terintegrasi untuk pengolahan limbah B3 secara aman, efisien, dan sesuai baku mutu lingkungan KLHK.</p>
+          <a href="#kontak" class="service-link">
+            Minta Penawaran →
+          </a>
+        </div>
+
+        <!-- SERVICE 2 — Pengangkutan -->
+        <div class="service-card" data-reveal data-reveal-delay="80">
+          <div class="service-icon-wrap">
+            <div class="service-icon-bg">
+              <!-- ICON: Truck -->
+              <svg viewBox="0 0 24 24">
+                <rect x="1" y="3" width="15" height="13" rx="1"/>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                <circle cx="5.5" cy="18.5" r="2.5"/>
+                <circle cx="18.5" cy="18.5" r="2.5"/>
+              </svg>
+            </div>
+            <div class="service-num">02</div>
+          </div>
+          <h3>Jasa Pengangkutan</h3>
+          <p>Pengangkutan limbah B3 dan non-B3 berlisensi dengan armada terstandarisasi, manifest resmi, dan cakupan wilayah Sumatera Utara.</p>
+          <a href="#kontak" class="service-link">
+            Minta Penawaran →
+          </a>
+        </div>
+
+        <!-- SERVICE 3 — Pengemasan -->
+        <div class="service-card" data-reveal data-reveal-delay="160">
+          <div class="service-icon-wrap">
+            <div class="service-icon-bg">
+              <!-- ICON: Package / box -->
+              <svg viewBox="0 0 24 24">
+                <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                <line x1="12" y1="22.08" x2="12" y2="12"/>
+              </svg>
+            </div>
+            <div class="service-num">03</div>
+          </div>
+          <h3>Layanan Pengemasan</h3>
+          <p>Repackaging dan pelabelan ulang limbah B3 berdasarkan karakteristik bahaya sesuai ketentuan regulasi pengelolaan limbah nasional.</p>
+          <a href="#kontak" class="service-link">
+            Minta Penawaran →
+          </a>
+        </div>
+
+        <!-- SERVICE 4 — Pemusnahan -->
+        <div class="service-card" data-reveal data-reveal-delay="240">
+          <div class="service-icon-wrap">
+            <div class="service-icon-bg">
+              <!-- ICON: Shield + check (certified destruction) -->
+              <svg viewBox="0 0 24 24">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <polyline points="9 12 11 14 15 10"/>
+              </svg>
+            </div>
+            <div class="service-num">04</div>
+          </div>
+          <h3>Pemusnahan Material &amp; Dokumen</h3>
+          <p>Pemusnahan tersertifikasi untuk material B3 dan dokumen rahasia dengan berita acara resmi sebagai bukti kepatuhan hukum perusahaan Anda.</p>
+          <a href="#kontak" class="service-link">
+            Minta Penawaran →
+          </a>
+        </div>
+
+      </div><!-- /services-grid -->
+    </div>
+  </section><!-- /services-section -->
+
+
+  <!-- ──────────────────────────────────
+       LEGALITAS BLOCK
+       ────────────────────────────────── -->
+  <section class="legalitas-block" id="legalitas" style="background:var(--navy);padding:90px 0;position:relative;overflow:hidden;">
+    <div style="position:absolute;inset:0;opacity:.03;background-image:linear-gradient(rgba(29,200,130,1) 1px,transparent 1px),linear-gradient(90deg,rgba(29,200,130,1) 1px,transparent 1px);background-size:70px 70px;" aria-hidden="true"></div>
+    <div class="container" style="position:relative;z-index:1;">
+
+      <div style="text-align:center;margin-bottom:56px;">
+        <div class="section-label" style="justify-content:center;">
+          <div class="section-label-line"></div>
+          <span>Legalitas &amp; Kepatuhan</span>
+        </div>
+        <h2 class="section-title white" data-reveal>Beroperasi di Bawah Regulasi Resmi</h2>
+        <p class="section-desc white" style="margin:0 auto;text-align:center;" data-reveal data-reveal-delay="100">
+          Seluruh operasional kami didukung perizinan resmi dari instansi berwenang, memastikan kepatuhan penuh terhadap regulasi lingkungan Indonesia.
+        </p>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;" class="legality-badges-grid">
+
+        <!-- Badge 1 -->
+        <div data-reveal style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:4px;padding:40px 30px;text-align:center;transition:all .3s;">
+          <div style="width:68px;height:68px;margin:0 auto 20px;background:linear-gradient(135deg,var(--green) 0%,var(--green-bright) 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 style="font-family:var(--font-display);font-size:20px;font-weight:700;color:#fff;margin-bottom:10px;">Izin KLHK</h3>
+          <p style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.65;">Izin resmi dari Kementerian Lingkungan Hidup dan Kehutanan untuk operasional pengolahan dan pengangkutan limbah B3.</p>
+          <span style="display:inline-block;margin-top:14px;background:rgba(29,200,130,.15);border:1px solid rgba(29,200,130,.3);color:var(--green-accent);font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:2px;font-weight:600;">Verified Active</span>
+        </div>
+
+        <!-- Badge 2 -->
+        <div data-reveal data-reveal-delay="100" style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:4px;padding:40px 30px;text-align:center;transition:all .3s;">
+          <div style="width:68px;height:68px;margin:0 auto 20px;background:linear-gradient(135deg,var(--green) 0%,var(--green-bright) 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 style="font-family:var(--font-display);font-size:20px;font-weight:700;color:#fff;margin-bottom:10px;">Registrasi OSS</h3>
+          <p style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.65;">Terdaftar dalam sistem Online Single Submission (OSS) sebagai badan usaha sah yang memenuhi persyaratan perizinan berusaha Indonesia.</p>
+          <span style="display:inline-block;margin-top:14px;background:rgba(29,200,130,.15);border:1px solid rgba(29,200,130,.3);color:var(--green-accent);font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:2px;font-weight:600;">OSS Registered</span>
+        </div>
+
+        <!-- Badge 3 -->
+        <div data-reveal data-reveal-delay="200" style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:4px;padding:40px 30px;text-align:center;transition:all .3s;">
+          <div style="width:68px;height:68px;margin:0 auto 20px;background:linear-gradient(135deg,var(--green) 0%,var(--green-bright) 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          </div>
+          <h3 style="font-family:var(--font-display);font-size:20px;font-weight:700;color:#fff;margin-bottom:10px;">SOP Terstandarisasi</h3>
+          <p style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.65;">Prosedur operasional standar yang komprehensif mencakup seluruh rantai proses pengelolaan limbah B3 dari pengangkutan hingga pemusnahan.</p>
+          <span style="display:inline-block;margin-top:14px;background:rgba(29,200,130,.15);border:1px solid rgba(29,200,130,.3);color:var(--green-accent);font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:2px;font-weight:600;">ISO-Compliant SOP</span>
+        </div>
+
+      </div><!-- /legality-badges-grid -->
+
+      <div style="text-align:center;margin-top:44px;" data-reveal>
+        <a href="#kontak" class="btn-outline">Verifikasi Dokumen Kami</a>
+      </div>
+
+    </div>
+  </section><!-- /legalitas-block -->
+
+
+  <!-- ──────────────────────────────────
+       CLIENTS — AUTO TICKER
+       ────────────────────────────────── -->
+  <section class="clients-section">
+    <div class="container">
+      <div class="clients-header" data-reveal>
+        <div class="section-label">
+          <div class="section-label-line"></div>
+          <span>Klien Kami</span>
+        </div>
+        <h2 class="section-title">Trusted by Leading Institutions</h2>
+        <p class="section-desc" style="margin:0 auto;text-align:center;">Dipercaya oleh rumah sakit, dinas pemerintah, dan perusahaan industri terkemuka di Sumatera Utara.</p>
+      </div>
+    </div>
+
+    <div class="clients-ticker-wrap">
+      <div class="clients-ticker">
+
+        <!--
+          ADD-CLIENT-LOGO: Ganti .client-logo-placeholder dengan <img>:
+          <div class="client-logo-wrap">
+            <img src="images/clients/tirtanadi.png" alt="PDAM Tirtanadi">
+            <p>PDAM Tirtanadi</p>
+          </div>
+        -->
+
+        <!-- === SET PERTAMA === -->
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">PT</div>
+            <p>PDAM Tirtanadi</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">RS</div>
+            <p>RS Martha Friska</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">RD</div>
+            <p>RSUD Perdagangan</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">RT</div>
+            <p>RSUD Tuan Rondahaim</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">RA</div>
+            <p>RSUD Arun</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">DL</div>
+            <p>Dinas Kesehatan Kab. Langkat</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">DB</div>
+            <p>Dinas Kesehatan Binjai</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">SN</div>
+            <p>PT. Sinar Utama Nusantara</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">AL</div>
+            <p>PT. Anugerah Langkat Makmur</p>
+          </div>
+        </div>
+
+        <!-- === SET DUPLIKAT (untuk loop seamless) === -->
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">PT</div>
+            <p>PDAM Tirtanadi</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">RS</div>
+            <p>RS Martha Friska</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">RD</div>
+            <p>RSUD Perdagangan</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">RT</div>
+            <p>RSUD Tuan Rondahaim</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">RA</div>
+            <p>RSUD Arun</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">DL</div>
+            <p>Dinas Kesehatan Kab. Langkat</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">DB</div>
+            <p>Dinas Kesehatan Binjai</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">SN</div>
+            <p>PT. Sinar Utama Nusantara</p>
+          </div>
+        </div>
+        <div class="client-item">
+          <div class="client-logo-wrap">
+            <div class="client-logo-placeholder">AL</div>
+            <p>PT. Anugerah Langkat Makmur</p>
+          </div>
+        </div>
+
+      </div><!-- /clients-ticker -->
+    </div><!-- /clients-ticker-wrap -->
+  </section><!-- /clients-section -->
+
+
+  <!-- ──────────────────────────────────
+       CONTACT / CTA SECTION
+       ────────────────────────────────── -->
+  <section class="cta-section" id="kontak">
+    <div class="container">
+      <div class="cta-inner">
+
+        <div class="section-label" style="justify-content:center;">
+          <div class="section-label-line"></div>
+          <span>Hubungi Kami</span>
+        </div>
+
+        <h2 data-reveal>Siap Mengelola Limbah B3 Industri Anda?</h2>
+        <p data-reveal data-reveal-delay="100">
+          Diskusikan kebutuhan pengelolaan limbah B3 industri Anda bersama tim profesional kami. Kami siap menyediakan solusi yang aman, legal, dan efisien.
+        </p>
+
+        <!-- Contact Form -->
+        <form id="contactForm" style="background:rgba(0,0,0,.18);border:1px solid rgba(255,255,255,.1);border-radius:6px;padding:40px;text-align:left;margin-bottom:28px;" data-reveal data-reveal-delay="150">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
+            <div>
+              <label style="display:block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:6px;font-weight:600;">Nama Lengkap</label>
+              <input type="text" placeholder="Nama Anda" required style="width:100%;padding:11px 14px;border:1.5px solid rgba(255,255,255,.15);border-radius:3px;font-family:var(--font-body);font-size:14px;color:#fff;background:rgba(255,255,255,.07);outline:none;transition:border .2s;" onfocus="this.style.borderColor='var(--green-accent)'" onblur="this.style.borderColor='rgba(255,255,255,.15)'">
+            </div>
+            <div>
+              <label style="display:block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:6px;font-weight:600;">Perusahaan</label>
+              <input type="text" placeholder="Nama Perusahaan" style="width:100%;padding:11px 14px;border:1.5px solid rgba(255,255,255,.15);border-radius:3px;font-family:var(--font-body);font-size:14px;color:#fff;background:rgba(255,255,255,.07);outline:none;transition:border .2s;" onfocus="this.style.borderColor='var(--green-accent)'" onblur="this.style.borderColor='rgba(255,255,255,.15)'">
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
+            <div>
+              <label style="display:block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:6px;font-weight:600;">Telepon</label>
+              <input type="tel" placeholder="Nomor Telepon" style="width:100%;padding:11px 14px;border:1.5px solid rgba(255,255,255,.15);border-radius:3px;font-family:var(--font-body);font-size:14px;color:#fff;background:rgba(255,255,255,.07);outline:none;transition:border .2s;" onfocus="this.style.borderColor='var(--green-accent)'" onblur="this.style.borderColor='rgba(255,255,255,.15)'">
+            </div>
+            <div>
+              <label style="display:block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:6px;font-weight:600;">Jenis Layanan</label>
+              <select style="width:100%;padding:11px 14px;border:1.5px solid rgba(255,255,255,.15);border-radius:3px;font-family:var(--font-body);font-size:14px;color:rgba(255,255,255,.8);background:rgba(30,50,70,.9);outline:none;">
+                <option>Pilih Layanan</option>
+                <option>Pengolahan Limbah B3</option>
+                <option>Jasa Pengangkutan</option>
+                <option>Layanan Pengemasan</option>
+                <option>Pemusnahan Material &amp; Dokumen</option>
+                <option>Konsultasi Umum</option>
+              </select>
+            </div>
+          </div>
+          <div style="margin-bottom:20px;">
+            <label style="display:block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:6px;font-weight:600;">Pesan / Keterangan</label>
+            <textarea placeholder="Deskripsikan kebutuhan pengelolaan limbah B3 Anda..." style="width:100%;height:100px;padding:11px 14px;border:1.5px solid rgba(255,255,255,.15);border-radius:3px;font-family:var(--font-body);font-size:14px;color:#fff;background:rgba(255,255,255,.07);outline:none;resize:vertical;transition:border .2s;" onfocus="this.style.borderColor='var(--green-accent)'" onblur="this.style.borderColor='rgba(255,255,255,.15)'"></textarea>
+          </div>
+          <button type="submit" id="formSubmit" class="btn-white" style="width:100%;padding:15px;">Kirim Pesan</button>
+          <p style="font-size:11.5px;color:rgba(255,255,255,.35);text-align:center;margin-top:12px;">Tim kami merespons dalam 1×24 jam kerja</p>
+        </form>
+
+        <div class="cta-btns">
+          <a href="tel:08116588817" class="btn-white">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:6px;"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.1 1.21 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.45-.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Hubungi Sales
+          </a>
+          <a href="mailto:pt.spli06@gmail.com" class="btn-outline">Kirim Email</a>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- /cta-section -->
+
+</main>
+
+
+<!-- ============================================================
+     ███████  ██████   ██████  ████████ ███████ ██████
+     ██      ██    ██ ██    ██    ██    ██      ██   ██
+     █████   ██    ██ ██    ██    ██    █████   ██████
+     ██      ██    ██ ██    ██    ██    ██      ██   ██
+     ██       ██████   ██████     ██    ███████ ██   ██
+     ============================================================ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Column 1: Brand + Contacts -->
+      <div class="footer-brand">
+        <div class="topbar-logo" style="margin-bottom:16px;">
+          <div class="logo-emblem">SPLI</div>
+          <div class="logo-text">
+            <strong>PT. SARANA PAMUNAH<br>LIMBAH INDONESIA</strong>
+          </div>
+        </div>
+        <p>Mitra pemenuhan kepatuhan lingkungan bagi industri di Indonesia. Berlisensi KLHK, terdaftar OSS, beroperasi dengan SOP terstandarisasi.</p>
+        <div class="footer-contacts" style="margin-top:20px;">
+          <a href="tel:08116588817">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.1 1.21 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.45-.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            0811 6588 817
+          </a>
+          <a href="mailto:pt.spli06@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            pt.spli06@gmail.com
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Address -->
+      <div class="footer-address">
+        <h4>Alamat Operasional</h4>
+        <p>
+          Jl. Batang Kuis Km. 3,5 No. 168<br>
+          Telaga Sari, Kec. Tanjung Morawa<br>
+          Kab. Deli Serdang<br>
+          Sumatera Utara 20362
+        </p>
+        <a href="https://maps.google.com/?q=Jl+Batang+Kuis+Km+3,5+No.168+Tanjung+Morawa+Deli+Serdang" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:6px;margin-top:16px;font-size:12.5px;color:var(--green-accent);">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Buka di Google Maps
+        </a>
+      </div>
+
+      <!-- Column 3: Embedded Map -->
+      <div>
+        <h4>Peta Lokasi</h4>
+        <div class="footer-map-wrap">
+          <!--
+            ADD GOOGLE MAPS EMBED:
+            Ganti div.footer-map-placeholder di bawah dengan kode embed dari Google Maps:
+
+            1. Buka maps.google.com
+            2. Cari alamat: Jl. Batang Kuis Km 3,5 Tanjung Morawa
+            3. Klik Share → Embed a map
+            4. Copy kode <iframe> dan tempel di sini
+
+            Contoh:
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!..."
+              width="100%" height="200" style="border:0;" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          -->
+          <div class="footer-map-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p style="font-size:12px;color:rgba(255,255,255,.3);text-align:center;">Tempel kode Google Maps<br>Embed di sini</p>
+            <a href="https://maps.google.com/?q=Jl+Batang+Kuis+Km+3,5+Tanjung+Morawa" target="_blank">Buka Peta →</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /footer-grid -->
+  </div><!-- /container -->
+
+  <div class="footer-bottom">
+    <div class="container">
+      © 2024 PT. Sarana Pamunah Limbah Indonesia. All rights reserved.
+      &nbsp;|&nbsp; Pengelolaan Limbah B3 Berlisensi KLHK
+      &nbsp;|&nbsp; Tanjung Morawa, Deli Serdang, Sumatera Utara
+    </div>
+  </div>
+</footer>
+
+
+<!-- External JavaScript (loaded at bottom for performance) -->
+<script src="main.js"></script>
+
+<!-- Responsive legality grid fix -->
+<style>
+@media (max-width:768px){
+  .legality-badges-grid{grid-template-columns:1fr !important;}
+  #contactForm > div[style*="grid-template-columns:1fr 1fr"]{
+    grid-template-columns:1fr !important;
+  }
+}
+</style>
+
+</body>
+</html>
